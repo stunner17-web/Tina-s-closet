@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | Tina's Closet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+
+  <!-- Paste the top-bar and header from cart.html here --> 
+<!-- Navbar -->
+<header class="navbar">
+  <a href="#" class="logo">
+    <h1>Tina's Closet.</h1>
+    <span>premium clothing for the modern you</span>
+  </a>
+<nav>
+   <li>
+  <a href="index.html#best-selling" class="back-link">
+    <i class="bi bi-arrow-left"></i> Back to shop
+  </a>
+</li>
+  </nav> 
+  <button class="menu-toggle" aria-label="Menu">
+  <i class="bi bi-list"></i>
+</button>
+</header>  
+
+
+
+
+  <main class="checkout-page">
+    <h1>Checkout</h1>
+
+    <div class="checkout-grid">
+
+      <form id="checkoutForm" class="checkout-form">
+        <h2>Delivery details</h2>
+
+        <label>Full name
+          <input type="text" name="name" required>
+        </label>
+
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+
+        <label>Phone number
+          <input type="tel" name="phone" required>
+        </label>
+
+        <label>Delivery address
+          <textarea name="address" rows="3" required></textarea>
+        </label>
+
+        <label>City
+          <input type="text" name="city" required>
+        </label>
+
+        <button type="submit" class="place-order-btn">Place Order</button>
+      </form>
+
+      <aside class="order-summary">
+        <h2>Order summary</h2>
+        <div id="summaryItems"></div>
+        <div class="summary-total">
+          <span>Total</span>
+          <strong id="orderTotal">$0.00</strong>
+        </div>
+      </aside>
+
+    </div>
+
+    <div class="order-success" id="orderSuccess">
+      <i class="bi bi-check-circle"></i>
+      <h2>Thank you for your order!</h2>
+      <p>We've received your order and will contact you shortly.</p>
+      <a href="index.html" class="place-order-btn">Back to home</a>
+    </div>
+  </main>
+
+  <!-- Paste the footer here -->
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>Tina's Closet.</h3>
+      <p>Premium clothing for the modern you. Ready-to-wear, tailored pants, corporate wears and bespoke, made in Ibadan.</p>
+      <div class="socials">
+        <a href="#"><i class="bi bi-whatsapp"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Help</h4>
+      <ul>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Track Order</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li>+2349157841331</li>
+        <li>oyewole1717@gmail.com</li>
+        <li>Ibadan, Nigeria</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Tina's Closet. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+  <script src="js/cart.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>

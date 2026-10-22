@@ -1,0 +1,14 @@
+node_modules
+
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+
+# local database and test uploads
+*.db
+*.db-journal
+uploads/ 
+ 
+prisma/seed.js
+prisma/create-admin.js

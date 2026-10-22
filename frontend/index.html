@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultras - Casual Wear Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sections will go here --> 
+
+  
+<!-- Top bar -->
+<div class="top-bar">
+  <div class="top-icons">
+    <a href="#"><i class="bi bi-person"></i></a>
+    <a href="cart.html" class="cart-link">
+  <i class="bi bi-cart"></i>
+  <span class="cart-count" id="cartCount">0</span>
+  </a>
+    <a href="#"><i class="bi bi-heart"></i></a>
+    <a href="#"><i class="bi bi-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar -->
+<header class="navbar">
+  <a href="#" class="logo">
+    <h1>Tina's Closet.</h1>
+    <span>premium clothing for the modern you</span>
+  </a>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav> 
+  <button class="menu-toggle" aria-label="Menu">
+  <i class="bi bi-list"></i>
+</button>
+</header> 
+
+<!-- Hero -->
+<section class="hero">
+ <div class="hero-text">
+  <h2>Summer Collection.</h2>
+  <p>Ready-to-wear, tailored pants, corporate wears and bespoke pieces. Style that speaks, at prices you will love.</p>
+</div>
+  <div class="hero-image">
+    <img src="images/home.png" alt="Summer collection">
+  </div>
+</section> 
+
+
+
+<!-- Featured Products -->
+<section class="featured">
+   <div class="section-header">
+      <h2>New Arrivals.</h2>
+      <a href="#" class="view-all">View All Products <i class="bi bi-arrow-right"></i></a>
+   </div>
+   
+ <div class="product-grid" id="newArrivalsGrid"></div>
+</section> 
+
+<!-- Collections -->
+<section class="collections">
+  <div class="collection-card large">
+    <img src="images/images19.jpg" alt="Tailored Pants">
+    <div class="collection-text">
+      <span>Ready to Wear</span>
+      <h3>Tailored<br>Pants.</h3>
+      <p>Wide-leg trousers and two-piece sets, cut to fit.</p>
+      <a href="#best-selling" class="btn-link show-all">Shop Collection <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="collection-card">
+    <img src="images/images18.jpg" alt="Blazer Sets">
+    <div class="collection-text">
+      <span>Corporate Wears</span>
+      <h3>Blazer<br>Sets.</h3>
+      <a href="#best-selling" class="btn-link show-all">Shop Collection <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="collection-card">
+    <img src="images/images17.jpg" alt="Bespoke">
+    <div class="collection-text">
+      <span>Made For You</span>
+      <h3>Bespoke<br>Orders.</h3>
+      <a href="#best-selling" class="btn-link">Shop Collection <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Newsletter -->
+<section class="newsletter">
+  <h2>Get 25% Off Discount Coupons</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst amet, metus, sit massa posuere maecenas.</p>
+  <form class="newsletter-form">
+    <input type="email" placeholder="Enter your email address here">
+    <button type="submit">Subscribe Now</button>
+  </form>
+</section>
+
+<!-- Best Selling -->
+<section class="best-selling" id="best-selling">
+  <h2>Best Selling Products</h2>
+
+  <div class="filter-tabs">
+    <button class="tab active" data-filter="all">All</button>
+    <button class="tab" data-filter="dresses">Dresses</button>
+    <button class="tab" data-filter="native">Native Wears</button>
+    <button class="tab" data-filter="suits">Suits</button>
+  </div>
+
+  <div class="product-grid" id="bestSellingGrid"></div>
+  
+</section>
+ 
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>Tina's Closet.</h3>
+      <p>Premium clothing for the modern you. Ready-to-wear, tailored pants, corporate wears and bespoke, made in Ibadan.</p>
+      <div class="socials">
+        <a href="#"><i class="bi bi-whatsapp"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Help</h4>
+      <ul>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Track Order</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li>+2349157841331</li>
+        <li>oyewole1717@gmail.com</li>
+        <li>Ibadan, Nigeria</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Tina's Closet. All rights reserved.</p>
+  </div>
+</footer>
+   
+
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script> 
+  <script src="js/shop.js"></script>
+</body>
+</html>
